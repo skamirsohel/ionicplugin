@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-demo",
+  "version": "0.0.1",
+  "description": "A simple testing app",
+  "cordova": {
+    "id": "cordova-plugin-demo",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skamirsohel/ionicplugin.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "author": "amir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skamirsohel/ionicplugin/issues"
+  },
+  "homepage": "https://github.com/skamirsohel/ionicplugin#readme"
+}
