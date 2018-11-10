@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-demo" version="0.0.1">
    <name>demo</name>
    <js-module name="demo" src="www/demo.js">
-      <clobbers target="cordova.plugins.demo" />
+      <clobbers target="demo" />
    </js-module>
    <platform name="ios">
       <config-file parent="/*" target="config.xml">
@@ -15,10 +15,10 @@
    <platform name="android">
       <config-file parent="/*" target="res/xml/config.xml">
          <feature name="demo">
-            <param name="android-package" value="cordova-plugin-demo.demo" />
+            <param name="android-package" value="cordova.plugin.demo.demo" />
          </feature>
       </config-file>
       <config-file parent="/*" target="AndroidManifest.xml" />
-      <source-file src="src/android/demo.java" target-dir="src/cordova-plugin-demo/demo" />
+      <source-file src="src/android/demo.java" target-dir="src/cordova/plugin/demo/demo" />
    </platform>
 </plugin>
